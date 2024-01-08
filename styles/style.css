@@ -34,7 +34,7 @@
     cursor: pointer;
 }
 
-/* Header Styles */
+/* Header Section Styles */
 
 header {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
@@ -68,9 +68,9 @@ header {
     /* 131.944% */
 }
 
-/* Main section */
+/* Main section Styles */
 
-/* Offer section */
+/* Offer section Styles */
 
 .offer-section {
     max-width: 1320px;
@@ -110,7 +110,7 @@ header {
     margin: auto;
 }
 
-/* Welcome section */
+/* Welcome section Styles */
 
 .welcome-section {
     display: flex;
@@ -157,7 +157,7 @@ header {
 
 }
 
-/* Date and time section */
+/* Date and time section Styles */
 
 .datetime-section {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -244,4 +244,66 @@ header {
     line-height: 32px;
     /* 160% */
     margin: 10px 0px 20px 0px;
+}
+
+
+/* Discount Section Styles*/
+
+.discount-section {
+    max-width: 1320px;
+    margin:120px auto;
+    text-align: center;
+}
+
+.discount-section-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.discount-section-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.discount-section-heading>span {
+    color: #F00;
+}
+
+.discount-section-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    padding: 0px 40px;
+    margin: 15px 0px 30px 0px;
+}
+
+.discount-section-img {
+    background-image: url('../images/Rectangle\ 2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    max-height: 720px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-1 {
+    width: 100%;
+}
+
+.img-2 {
+    position: absolute;
+    top: 10%;
+    right: 68%;
 }
