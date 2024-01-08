@@ -91,7 +91,7 @@ header {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .offer-section-title {
@@ -100,8 +100,8 @@ header {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    margin-top: 15px;
-    margin-bottom: 52px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .offer-section div {
@@ -219,11 +219,15 @@ header {
 }
 
 .comingsoon-section-img {
-    background-image: url('../images/Rectangle\ 2.png');
-    border-radius: 463px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
     border: 15px solid #F00;
 }
 
+.comingsoon-section-img img {
+    margin: 18px;
+}
 
 .comingsoon-section-title-2 {
     color: #F00;
@@ -241,4 +245,3 @@ header {
     /* 160% */
     margin: 10px 0px 20px 0px;
 }
-
