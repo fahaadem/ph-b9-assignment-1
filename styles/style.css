@@ -420,3 +420,69 @@ header {
 #btn-subscribe:hover {
     box-shadow: 5px 5px 5px rgba(155, 5, 5, 0.63);
 }
+
+/* Footer Section Styles */
+
+footer {
+    max-width: 1600px;
+    margin: 100px auto 0px;
+    background: #070211;
+    color: #FFFFFF;
+    padding: 100px 0px;
+}
+
+footer > div {
+    margin-bottom: 50px;
+}
+
+footer hr {
+    max-width: 1320px;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.communication {
+    max-width: 1320px;
+    margin: 8px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.phoneweb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: right;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+    /* 166.667% */
+}
+
+.footer-img-section {
+    max-width: 1320px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.footer-img {
+    margin-right: 24px;
+}
+
+.copywrite-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 50px auto;
+}
